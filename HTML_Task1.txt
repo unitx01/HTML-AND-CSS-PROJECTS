@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="eg">
+    <head>
+	    <title>CATS</title>
+	    <meta charset="utf-8">
+	</head>
+	<body>
+	<main>
+	<p>how big can I write cat</p>
+	<h1>CAT</h1>
+	<h3>Cat</h3>
+	<h6>cat</h6>
+	<p>here is an image of the best kind of cat</p>
+	<img src ="https://images.squarespace-cdn.com/content/v1/554e744ce4b026a2b08ca248/1525062543718-0F19ERKIP2EI74SKF2AN/Genevieve-013018-cc-6.jpg"> 
+    <blockquote>"Cats are better than dogs,
+                 It's a fact" - Albert Einstein</blockquote>
+	<iframe width="1511" height="850" src="https://www.youtube.com/embed/PvmbDZJHhXw" title="Fat Cat Falls From a Balcony" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<nav>
+	<a href="Dog.html">Dog Image</a>
+	<a href="https://media.tenor.com/elFgAJZ8JV0AAAAe/fat-dog-meme.png">big dog??</a>
+	<a href="Dog_video.html">Dog Video</a>
+	</nav>
+	
+	</main>
+	</body>
+	<footer>all rights reserved</footer>
+</html>
