@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>One Page Site</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <!--NAVBAR-->
-        <nav>
-            <ul>
-                <li><a href="#hoshi">Hoshi photo</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+
+<head>
+    <title>One Page Site</title>
+    <meta charset="UTF-8">
+    <link href="css/one_page_website.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <ul>
+            <li><a href="#hoshi">Hoshi photo</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
     <!--HOMEPAGE-->
     <header>
         <p>This is a website about Hoshi the cat!</p>
@@ -32,12 +37,22 @@
             </h3>
             <div>
                 <form>
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last name"><br>
-                        <input type="email" placeholder="Email"><br>
-                        <input type="tel" placeholder="Phone Number"><br>
-                        <textarea placeholder="Type your message here..."></textarea>
-                        <input type="submit" value="Submit">
+                    <label for="first">First Name</label>
+                    <input id="first" type="text">
+
+                    <label for="last">Last Name</label>
+                    <input id="last" type="text">
+
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="tel">
+
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+
+                    <input type="submit" value="Submit">
                 </form>
             </div>
         </div>
@@ -46,19 +61,24 @@
     <section>
         <div id="video">
             <h1>Hoshi's favorite music video!</h1>
-            <iframe width="1903" height="731" src="https://www.youtube.com/embed/SaA_cs4WZHM" title="The Kitty Cat Dance">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SaA_cs4WZHM"
+                title="The Kitty Cat Dance video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
         </div>
 
     </section>
     <!--FOOTER-->
-        <footer>
-            <table>
-                <tr>
-                    <td>
-                        <p>I hope you like hoshi as much as I do!</p>
-                    </td>
-                </tr>
-            </table>
-        </footer>
-    </body>
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>I hope you like hoshi as much as I do!</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
 </html>
