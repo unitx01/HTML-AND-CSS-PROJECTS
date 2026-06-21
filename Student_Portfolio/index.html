@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<!--Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Din Golad</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+</head>
+
+<!--Body-->
+
+<body class="Background">
+
+    <!--Navbar-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <!--Breaks inserted to add space between navbar and the first heading-->
+    <br>
+    <br>
+
+    <!--Background image-->
+    <div id="Home">
+    </div>
+    <img src="images/cat2.jpg" type="image">
+    <div class="Colum_1">
+    </div>
+
+    <!--Top text-->
+    <div class="Top_Text">
+        <h1 class="red-text">Din Golad's Portfolio</h1>
+        <strong>
+            <p class="center">
+                <q>All Cats Are Beautiful!</q>
+                <br>
+                <br> -Cat person
+                <br>
+                <br> My name is Din Golad. Welcome to my portfolio website. On it, I will tell you about my background
+                and experience.
+                <br>
+                <br> Thank you for stopping by and enjoy!
+            </p>
+        </strong>
+    </div>
+
+    <!--About section-->
+    <div class="Row" id="About">
+        <!--Left column-->
+        <div class="Column_2">
+            <img src="images/cat.jpg" alt="Cat image">
+        </div>
+        <!--Right column-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                I am a student learning coding for game dev!
+                <br>
+                <br>I hope to make my own games one day soon!
+                <br>
+                <br>Want to reach out? <a href="#Contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+
+    <!--GitHub section-->
+    <div class="Row" id="GitHub">
+        <!--Left column-->
+        <div class="Column_1">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profile here:
+            <p class="center"><a href="https://github.com/unitx01" target="_blank">My Github</a></p>
+            </p>
+        </div>
+        <!--Right column-->
+        <div class="Column_2">
+            <a href="https://github.com/unitx01" target="_blank"><img src="images/GithubLogo.png" alt="GitHub Logo"></a>
+        </div>
+    </div>
+
+    <!--Contact section-->
+    <div class="Row" id="Contact">
+        <!--Contact image, left column-->
+        <div class="Column_2 Column_tall">
+            <img src="images/contact-me.png" alt="Contact_Image">
+        </div>
+        <!--Contact form, right column-->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+            <!--This specifies where and how to send the form data; we are leaving it blank-->
+            <form action="https://formspree.io/f/mojzgyyn" method="POST">
+                <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <label>Name:</label>
+                <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!--Footer section-->
+    <footer>
+        <p>
+        <p class="center">Thanks for dropping by!</a></p>
+        <br>
+        </p>
+    </footer>
+</body>
+
+</html>
